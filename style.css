@@ -1,0 +1,26 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFF287; 
+    min-height: 100vh;
+}
+        
+.card-bg {
+    background-color: #8A0000; 
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+        
+.navbar{
+    background-color: #3B060A;
+}
+.static-nav-link {
+    color: var(--bs-light) !important;
+    padding: 0;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.static-nav-link:hover {
+    color: var(--bs-warning) !important;
+}
+
+.text-3xl { font-size: 1.75rem; }
