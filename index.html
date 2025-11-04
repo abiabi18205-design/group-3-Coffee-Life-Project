@@ -13,65 +13,6 @@
 <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-    <!-- Main Navigation Bar  -->
-    <header class="sticky-top bg-dark shadow-lg">
-         <nav class="navbar navbar-expand-lg navbar-dark ">
-  <div class="container">
-    <a class="navbar-brand"href="#">☕ COFFEE LIFE</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse " id="navbarScroll">
-      <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-        <li class="nav-item hover-dark">
-          <a class="nav-link active" aria-current="page" href="#home-section">HOME</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" >ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#menu-section">MENU</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#contact-section">CONTACT</a>
-        </li>
-      </ul>
-
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-light" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-    </header>
-
-    
-        <!-- HOME SECTION -->
-        <section id="home-section" class="mb-5 py-5 mt-md-0">
-            <h2 class="display-5 fw-bold text-center mb-5 text-warning">Welcome to our coffee life</h2><br>
-            <!-- Hero Section -->
-            <!-- <div class="card-bg rounded-4 p-4 p-md-5 mb-5 d-flex flex-column flex-md-row align-items-center"> -->
-            <div class="container mb-5 d-flex flex-column flex-md-row align-items-center">
-                <div class="col-md-6 pe-md-5 text-center text-md-start">
-                    <p class="fs-5 text-warning mb-2 fw-semibold">Discover Our zone</p>
-                    <h2 class="display-3 fw-bolder mb-3 lh-1 text-white">
-                        Experience <span class="text-warning">Premium</span> Quality
-                    </h2>
-                    <p class="text-white mb-4 fs-5">
-                        Hand-crafted coffee and artisanal pastries, brewed for your perfect moment.
-                    </p>
-                    <a href="#menu-section" class="btn btn-warning fw-bold px-5 py-3 rounded-pill shadow-lg">
-                        Explore Our Menu
-                    </a>
-                </div>
-                
-                <div class="col-md-6 mt-4 mt-md-0">
-                    <img src="./image/view-coffee-cups.jpg" alt="Freshly Roasted Coffee Beans" class="img-fluid rounded-4 border border-4 border-warning border-opacity-50">
-                </div>
-            </div>
-        </section>
-
 
 <main class="container py-4 py-md-5 text-light">
 
@@ -83,6 +24,13 @@
                          <img src="./image/Gemini_Generated_Image_jpjcjtjpjcjtjpjc-01.jpeg" alt="coffee image" class="img-fluid rounded-4 border border-4 border-warning border-opacity-50">
                         <h3 class="h5 fw-semibold mb-2 text-warning">Mocha</h3>
                         <p class="text-secondary">A mocha is a Latte with a shot of chocolate, making it a coffee twist on hot chocolate. We take pride in using high quality beans. </p>
+                        <div class="rating">
+              <input type="radio" id="star10" name="rate2"><label for="star10">★</label>
+              <input type="radio" id="star9" name="rate2"><label for="star9">★</label>
+              <input type="radio" id="star8" name="rate2"><label for="star8">★</label>
+              <input type="radio" id="star7" name="rate2"><label for="star7">★</label>
+              <input type="radio" id="star6" name="rate2"><label for="star6">★</label>
+            </div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -192,12 +140,115 @@
             </div>
         </section>
 
+<div class="container my-5">
+    <h2 class="text-center mb-4 text-warning fw-bold display-4">Popular Brews</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm bg-dark shadow ac">
+          
+          <img src="./image/Gemini_Generated_Image_nwcakinwcakinwca-01-01.jpeg" class="card-img-top" alt="Espresso">
+          <div class="card-body text-center">
+            <h5 class="text-light">Espresso</h5>
+            <p class="text-light">Strong and rich Italian coffee shot.</p>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate1"><label for="star5">★</label>
+              <input type="radio" id="star4" name="rate1"><label for="star4">★</label>
+              <input type="radio" id="star3" name="rate1"><label for="star3">★</label>
+              <input type="radio" id="star2" name="rate1"><label for="star2">★</label>
+              <input type="radio" id="star1" name="rate1"><label for="star1">★</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="./image/Gemini_Generated_Image_uztrdeuztrdeuztr-01.jpeg" class="card-img-top" alt="Latte">
+          <div class="card-body text-center">
+            <h5>Latte</h5>
+            <p>Creamy milk with a smooth espresso base.</p>
+            <div class="rating">
+              <input type="radio" id="star10" name="rate2"><label for="star10">★</label>
+              <input type="radio" id="star9" name="rate2"><label for="star9">★</label>
+              <input type="radio" id="star8" name="rate2"><label for="star8">★</label>
+              <input type="radio" id="star7" name="rate2"><label for="star7">★</label>
+              <input type="radio" id="star6" name="rate2"><label for="star6">★</label>
+            </div>
+          </div>
+        </div>
+      </div>
+ <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="./image/Gemini_Generated_Image_uztrdeuztrdeuztr-01.jpeg" class="card-img-top" alt="Latte">
+          <div class="card-body text-center">
+            <h5>Latte</h5>
+            <p>Creamy milk with a smooth espresso base.</p>
+            <div class="rating">
+              <input type="radio" id="star10" name="rate2"><label for="star10">★</label>
+              <input type="radio" id="star9" name="rate2"><label for="star9">★</label>
+              <input type="radio" id="star8" name="rate2"><label for="star8">★</label>
+              <input type="radio" id="star7" name="rate2"><label for="star7">★</label>
+              <input type="radio" id="star6" name="rate2"><label for="star6">★</label>
+            </div>
+          </div>
+        </div>
+      </div>
+ <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="./image/Gemini_Generated_Image_uztrdeuztrdeuztr-01.jpeg" class="card-img-top" alt="Latte">
+          <div class="card-body text-center">
+            <h5>Latte</h5>
+            <p>Creamy milk with a smooth espresso base.</p>
+            <div class="rating">
+              <input type="radio" id="star10" name="rate2"><label for="star10">★</label>
+              <input type="radio" id="star9" name="rate2"><label for="star9">★</label>
+              <input type="radio" id="star8" name="rate2"><label for="star8">★</label>
+              <input type="radio" id="star7" name="rate2"><label for="star7">★</label>
+              <input type="radio" id="star6" name="rate2"><label for="star6">★</label>
+            </div>
+          </div>
+        </div>
+      </div>
+ <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="./image/Gemini_Generated_Image_uztrdeuztrdeuztr-01.jpeg" class="card-img-top" alt="Latte">
+          <div class="card-body text-center">
+            <h5>Latte</h5>
+            <p>Creamy milk with a smooth espresso base.</p>
+            <div class="rating">
+              <input type="radio" id="star10" name="rate2"><label for="star10">★</label>
+              <input type="radio" id="star9" name="rate2"><label for="star9">★</label>
+              <input type="radio" id="star8" name="rate2"><label for="star8">★</label>
+              <input type="radio" id="star7" name="rate2"><label for="star7">★</label>
+              <input type="radio" id="star6" name="rate2"><label for="star6">★</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="./image/Gemini_Generated_Image_t0p953t0p953t0p9-01.jpeg" class="card-img-top" alt="Cappuccino">
+          <div class="card-body text-center">
+            <h5>Cappuccino</h5>
+            <p>Frothy milk and espresso perfection.</p>
+            <div class="rating">
+              <input type="radio" id="star15" name="rate3"><label for="star15">★</label>
+              <input type="radio" id="star14" name="rate3"><label for="star14">★</label>
+              <input type="radio" id="star13" name="rate3"><label for="star13">★</label>
+              <input type="radio" id="star12" name="rate3"><label for="star12">★</label>
+              <input type="radio" id="star11" name="rate3"><label for="star11">★</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
         <!-- CONTACT SECTION -->
         <section id="contact-section" class="py-5 border-top border-secondary border-opacity-25">
             <h2 class="display-4 fw-bold text-center mb-5 text-warning">Visit & Contact Us</h2>
 
-            <div class="row g-5">
-               
+          <div class="row g-5">
                 <div class="col-md-6">
                     <div class="card-bg rounded-4 p-4 p-md-5 h-100">
                         <h3 class="h3 fw-semibold mb-4 text-warning">Find Us</h3>
@@ -222,10 +273,13 @@
                             <p class="text-secondary mb-0">Phone: 0771234567</p>
                             <p class="text-warning"><a href="mailto:info@stellarbeans.com" class="text-decoration-none text-warning">coffeelife@gmail.com</a></p>
                         </div>
-                        
-                        <div class="h-48 w-100 card-bg border border-secondary border-opacity-25 d-flex align-items-center justify-content-center rounded-3 mt-4" style="height: 12rem;">
-                            <p class="text-secondary fst-italic mb-0"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62930.07568962199!2d79.98722657389611!3d9.66995509716794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afe53fd7be66aa5%3A0xc7da0d9203baf512!2sJaffna!5e0!3m2!1sen!2slk!4v1762128573683!5m2!1sen!2slk" width="500" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                         <div>
                         </div>
+                        <div class="card-bg border border-secondary border-opacity-25 d-flex align-items-center justify-content-center rounded-3 mt-4">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3638.162309069864!2d80.03515882369867!3d9.680787386537991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afe55d50e53a1e9%3A0x42907e42292d905d!2zS2Fsdml5YW5rYWR1IGp1bmN0aW9uIOCuleCusuCvjeCuteCuv-Cur-CumeCvjeCuleCuvuCun-CvjeCun-CvgeCumuCvjSDgrprgrqjgr43grqTgrr8!5e0!3m2!1sen!2slk!4v1762102444505!5m2!1sen!2slk" width="100%"></iframe>
+
+                        </div>
+                       
                     </div>
                 </div>
 
